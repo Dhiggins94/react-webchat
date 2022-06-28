@@ -130,8 +130,8 @@ const Options = ({ children }) => {
             </Grid>
           </Grid>
         </form>
+        {children}
       </Paper>
-      Options {children}
     </StyledContainer>
   );
 };
